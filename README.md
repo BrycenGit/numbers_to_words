@@ -1,63 +1,45 @@
-# _{Application Name}_
+# _Numbers to Words_
 
-_{Date of current version}_
+_22 September 2020_
 
-#### _{Brief description of application}_
+#### _A ruby project to transform numbers into words_
 
-#### By _**{List of contributors}**_
+#### By _**Vanessa Stewart and Brycen Bartolome**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is project for Epicodus to practice using Ruby hashes and classes. The program takes in a number and returns that number into written words._
 
 ## Specifications
 | Spec     | Behavior | Input    | Output   |
 | -------- | -------- | -------- | -------- |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| 1 | Program takes a number and turns it into a string. | 1 | "1" |
+| 2 | Program splits string into an array. | 1 | [1] |
+| 3 | Program turns numbers 0-9 into words. | 1 | "one" |
+| 4 | Program turns numbers 10-19 into words. | 11 | "eleven" |
+| 5 | Program turns numbers 20-29 into words. | 21 | "twenty one" |
+| 6 | Program turns numbers 20 - 99 into words. | 99 | "ninety nine" |
+| 7 | Program turns numbers 100 - 999 into words. | 101 | "one hundrend one" |
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-To View Project:
-* Open a web browser of your choice and navigate to the following page:
-
-To Extend This Project:
-* Clone this project using the 'git clone' command in terminal.
-* Open the cloned repo in a text editor of your choice.
+- Clone this project using the 'git clone' command in terminal/command line.
+- Navigate to the cloned folder and run 'bundle' in your command line.
+- Open the cloned repo in a text editor of your choice.
+- To run tests: While in the root directory of the project, run 'rspec' in your command line.
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
 _There are no known bugs at this time._
-
-## Support and Contact Details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
-_Connect with me at vamariestewart@gmail.com with ideas to improve this project._
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
-
-* HTML5
-* CSS/Bootstrap
-* JavaScript/jQuery
+- Ruby
+- Gems: rspec, pry, rack
 
 ### License
 
-Copyright (c) 2020 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_{Vanessa Stewart, Brycen Bartolome, Awesome Sauce Enterprises}_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
